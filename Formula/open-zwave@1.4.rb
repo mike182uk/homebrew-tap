@@ -1,8 +1,8 @@
-class OpenZwave < Formula
+class OpenZwaveAT14 < Formula
   desc "Library that interfaces with selected Z-Wave PC controllers"
   homepage "http://www.openzwave.com"
-  url "http://old.openzwave.com/downloads/openzwave-1.6.899.tar.gz"
-  sha256 "aeb1773081e28b638506aa94ed5dbe2e61789e13ab5ac3a3854d74b79f26af94"
+  url "https://github.com/OpenZWave/open-zwave/archive/v1.4.tar.gz"
+  sha256 "efb54adf0cda12f76fcb478f7cf3b7d108b5daf38d60b4410cca7600aa072e83"
 
   depends_on "pkg-config" => :build
   depends_on "doxygen" => :build
