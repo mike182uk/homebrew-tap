@@ -4,8 +4,8 @@ class OpenZwaveAT14 < Formula
   url "https://github.com/OpenZWave/open-zwave/archive/v1.4.tar.gz"
   sha256 "efb54adf0cda12f76fcb478f7cf3b7d108b5daf38d60b4410cca7600aa072e83"
 
-  depends_on "pkg-config" => :build
   depends_on "doxygen" => :build
+  depends_on "pkg-config" => :build
 
   def install
     ENV["BUILD"] = "release"

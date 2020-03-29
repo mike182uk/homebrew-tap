@@ -4,8 +4,8 @@ class OpenZwave < Formula
   url "http://old.openzwave.com/downloads/openzwave-1.6.899.tar.gz"
   sha256 "aeb1773081e28b638506aa94ed5dbe2e61789e13ab5ac3a3854d74b79f26af94"
 
-  depends_on "pkg-config" => :build
   depends_on "doxygen" => :build
+  depends_on "pkg-config" => :build
 
   def install
     ENV["BUILD"] = "release"
