@@ -1,4 +1,4 @@
-class Snpt < Formula
+class SnptAT210 < Formula
   desc "Gist powered CLI snippet retriever"
   homepage "https://github.com/mike182uk/snpt"
   url "https://github.com/mike182uk/snpt/releases/download/2.1.0/snpt-2.1.0-darwin-amd64.tar.gz"

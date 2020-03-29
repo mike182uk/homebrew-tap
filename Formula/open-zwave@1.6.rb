@@ -1,4 +1,4 @@
-class OpenZwave < Formula
+class OpenZwaveAT16 < Formula
   desc "Library that interfaces with selected Z-Wave PC controllers"
   homepage "http://www.openzwave.com"
   url "http://old.openzwave.com/downloads/openzwave-1.6.899.tar.gz"
