@@ -13,7 +13,7 @@ brew tap mike182uk/tap
 | Name | Description | Versions |
 |------|-------------|----------|
 | [OpenZWave](https://github.com/OpenZWave/open-zwave) | Library that interfaces with selected Z-Wave PC controllers | [`1.6`](http://old.openzwave.com/downloads/) , [`1.4`](https://github.com/OpenZWave/open-zwave/releases/tag/v1.4) |
-| [snpt](https://github.com/mike182uk/snpt) | A gist powered CLI snippet retriever | [`2.1.0`](https://github.com/mike182uk/snpt/releases/tag/2.1.0) |
+| [snpt](https://github.com/mike182uk/snpt) | A gist powered CLI snippet retriever | [`3.0.0`](https://github.com/mike182uk/snpt/releases/tag/3.0.0), [`2.1.0`](https://github.com/mike182uk/snpt/releases/tag/2.1.0) |
 
 ### OpenZWave
 
