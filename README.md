@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew formulae for various tools.
+Homebrew formulae & casks for various tools.
 
 ## Installation
 
@@ -14,6 +14,7 @@ brew tap mike182uk/tap
 |------|-------------|----------|
 | [OpenZWave](https://github.com/OpenZWave/open-zwave) | Library that interfaces with selected Z-Wave PC controllers | [`1.6`](http://old.openzwave.com/downloads/) , [`1.4`](https://github.com/OpenZWave/open-zwave/releases/tag/v1.4) |
 | [snpt](https://github.com/mike182uk/snpt) | A gist powered CLI snippet retriever | [`3.0.0`](https://github.com/mike182uk/snpt/releases/tag/3.0.0), [`2.1.0`](https://github.com/mike182uk/snpt/releases/tag/2.1.0) |
+| [balena-cli](https://github.com/balena-io/balena-cli) | The official balena CLI tool | [`12.50.2`](https://github.com/balena-io/balena-cli/releases/tag/v12.50.2)
 
 ### OpenZWave
 
@@ -40,3 +41,19 @@ To install the latest version supported by this tap:
 ```sh
 brew install mike182uk/tap/snpt
 ```
+
+To install a specific version:
+
+```sh
+brew install mike182uk/tap/snpt@2.1.0
+```
+
+### balena-cli
+
+To install the latest version supported by this tap:
+
+```sh
+brew install mike182uk/tap/balena-cli
+```
+
+There is already a Hombrew formula for `balena-cli` in [`homebrew/core`](https://github.com/Homebrew/homebrew-core/blob/master/Formula/balena-cli.rb) but it installs an out of date version (`v12.25.0`) and has a dependency on `node`.

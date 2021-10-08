@@ -1,14 +1,19 @@
 .PHONY: audit
-audit: ## Audit the formulae
+audit: ## Audit formulae & casks
 	@for file in ./Formula/*; do \
 		echo "Auditing $$file"; \
-		brew audit --new-formula $$file; \
+		brew audit --formula $$file; \
+	done
+
+	@for file in ./Casks/*; do \
+		echo "Auditing $$file"; \
+		brew audit --cask $$file; \
 	done
 
 .PHONY: alias
 alias: ## Create aliases for latest versions of each formula
 	@rm -f ./Aliases/*
-	@for file in `fd -d 2 -e .rb | sort -V -r | sort -u -t@ -k1,1`; do \
+	@for file in `fd -d 2 -e .rb --full-path ./Formula | sort -V -r | sort -u -t@ -k1,1`; do \
 		name=`echo "$$file" | cut -c 9- | cut -d @ -f 1`; \
 		echo "Making alias: $$name -> ../$$file"; \
 		ln -s ../$$file Aliases/$$name; \
