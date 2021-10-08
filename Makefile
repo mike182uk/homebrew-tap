@@ -1,14 +1,9 @@
-.PHONY: audit
-audit: ## Audit formulae & casks
-	@for file in ./Formula/*; do \
-		echo "Auditing $$file"; \
-		brew audit --formula $$file; \
-	done
-
-	@for file in ./Casks/*; do \
-		echo "Auditing $$file"; \
-		brew audit --cask $$file; \
-	done
+.PHONY: lint
+lint: ## Audit & check styling of all formulae & casks
+	brew audit --formula ./Formula/*
+	brew audit --cask ./Casks/*
+	brew style --formula ./Formula/*
+	brew style --cask ./Casks/*
 
 .PHONY: alias
 alias: ## Create aliases for latest versions of each formula
