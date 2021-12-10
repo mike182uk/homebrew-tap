@@ -1,6 +1,6 @@
 cask "balena-cli" do
-  version "12.50.2"
-  sha256 "6fad98d9410e254566c7122337dc59efb99fcd05cc6d4d685009e8d56e045cac"
+  version "12.55.4"
+  sha256 "5682a61d0299e5570c088642e50e79db72ee3bca0f86170f46fbcc4256359ade"
 
   url "https://github.com/balena-io/balena-cli/releases/download/v#{version}/balena-cli-v#{version}-macOS-x64-installer.pkg"
   name "Balena CLI"

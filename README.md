@@ -14,7 +14,7 @@ brew tap mike182uk/tap
 |------|-------------|----------|
 | [OpenZWave](https://github.com/OpenZWave/open-zwave) | Library that interfaces with selected Z-Wave PC controllers | [`1.6`](http://old.openzwave.com/downloads/) , [`1.4`](https://github.com/OpenZWave/open-zwave/releases/tag/v1.4) |
 | [snpt](https://github.com/mike182uk/snpt) | A gist powered CLI snippet retriever | [`3.0.0`](https://github.com/mike182uk/snpt/releases/tag/3.0.0), [`2.1.0`](https://github.com/mike182uk/snpt/releases/tag/2.1.0) |
-| [balena-cli](https://github.com/balena-io/balena-cli) | The official balena CLI tool | [`12.50.2`](https://github.com/balena-io/balena-cli/releases/tag/v12.50.2)
+| [balena-cli](https://github.com/balena-io/balena-cli) | The official balena CLI tool | [`12.55.4`](https://github.com/balena-io/balena-cli/releases/tag/v12.55.4)
 
 ### OpenZWave
 
