@@ -1,0 +1,10 @@
+version: '3'
+
+silent: true
+
+tasks:
+  check:
+    desc: Check for problems with formulae & casks
+    cmds:
+      - brew audit mike182uk/tap/balena-cli
+      - brew style mike182uk/tap/balena-cli
