@@ -12,7 +12,7 @@ brew tap mike182uk/tap
 
 | Name | Description | Version(s) |
 |------|-------------|----------|
-| [balena-cli](https://github.com/balena-io/balena-cli) | The official balena CLI tool | [`18.1.5`](https://github.com/balena-io/balena-cli/releases/tag/v18.1.5)
+| [balena-cli](https://github.com/balena-io/balena-cli) | The official balena CLI tool | [`19.0.13`](https://github.com/balena-io/balena-cli/releases/tag/v19.0.13)
 
 ### balena-cli
 
